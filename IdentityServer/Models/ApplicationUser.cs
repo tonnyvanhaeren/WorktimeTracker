@@ -9,6 +9,10 @@ namespace IdentityServer.Models
 
         public string Lastname { get; set; }
 
-        public bool isAccepted { get; set; }
+        public bool IsAdmin { get; set; }
+
+        public bool IsWorker { get; set; }
+
+        public bool IsAccepted { get; set; }
     }
 }

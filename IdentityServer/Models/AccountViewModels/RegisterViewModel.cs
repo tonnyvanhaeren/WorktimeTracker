@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IdentityServer.Models.AccountViewModels
 {
-    public class RegisterViewModel
+    public class RegisterViewModel : BaseViewModel
     {
         [Required]
         [EmailAddress]
